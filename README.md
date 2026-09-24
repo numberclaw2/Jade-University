@@ -29,3 +29,7 @@ The external video/written-literature placement architecture is implemented, but
 
 ## Safety / scope
 Jade University is a fictional independent-study environment, not an accredited institution.
+
+
+## v0.1.1 GitHub packaging
+The current GitHub repository stores the six brand PNG files at the repository root. All HTML and service-worker references in v0.1.1 match that layout.

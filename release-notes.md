@@ -1,5 +1,14 @@
 # Jade University Release Notes
 
+## v0.1.1 — GitHub root-asset path fix
+- Verified the initial Jade University files were uploaded to the GitHub `main` branch.
+- Updated all university crest, seal, monogram, wordmark, and mascot image references to match the repository's root-level image layout.
+- Updated the service-worker cache paths to the same root-level layout.
+- Bumped the service-worker cache key to `jade-university-v0.1.1` so browsers do not preserve the broken v0.1 image paths.
+- Revalidated internal file references after the GitHub packaging fix.
+
+# Jade University Release Notes
+
 ## v0.1 — Initial working build
 - Created separate Jade University site; Alfred remains untouched.
 - Adopted Jade University crest, seal, wordmark, monogram, and Jade Hounds mascot system.
