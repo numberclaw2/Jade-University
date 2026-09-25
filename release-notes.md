@@ -1,5 +1,13 @@
 # Jade University Release Notes
 
+## v0.3.0 — Purple-First UX Remodel
+- Shifted the visual hierarchy from jade-first to purple-first, with jade retained as the secondary accent.
+- Rebuilt the global visual language around a richer purple identity, lighter glass-like surfaces, and a more distinct studio-style learning atmosphere.
+- Remodeled the header, navigation pills, hero, cards, page banners, rails, lesson surfaces, callouts, tables, footer, and button treatments for a more premium and cohesive experience.
+- Updated the home-page messaging so the site feels like a focused technician workshop rather than a generic course landing page.
+- Updated browser theme colors and the web-manifest theme color to the new purple-primary system.
+- Bumped the service-worker cache key to `jade-university-v0.3.0` so users receive the remodeled assets cleanly.
+
 ## v0.2.0 — Technician Core Reconstruction
 - Rebuilt the curriculum around the minimum electronics/test-technician skill set instead of broad electronics coverage.
 - Preserved the eight-block structure but moved oscilloscope competence into the five-block technician core.

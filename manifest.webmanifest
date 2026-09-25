@@ -3,8 +3,8 @@
   "short_name": "Jade University",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#f8f6ef",
-  "theme_color": "#074b35",
+  "background_color": "#fcf8ff",
+  "theme_color": "#5a2571",
   "icons": [
     {
       "src": "icon-192.png",

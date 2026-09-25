@@ -1,4 +1,4 @@
-const CACHE='jade-university-v0.2.0';
+const CACHE='jade-university-v0.3.0';
 const APP_SHELL=[
   'index.html','learn.html','study.html','practice.html','progress.html','resources.html','glossary.html','about.html',
   'styles.css','curriculum.js','glossary-data.js','resources-data.js','app.js','manifest.webmanifest',

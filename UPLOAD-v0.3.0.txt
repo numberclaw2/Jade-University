@@ -1,0 +1,21 @@
+JADE UNIVERSITY v0.3.0 — PURPLE-FIRST UX REMODEL
+
+Upload every file in this folder to the ROOT of numberclaw2/Jade-University and replace the existing files.
+
+Minimum changed files:
+- styles.css
+- index.html
+- learn.html
+- study.html
+- practice.html
+- progress.html
+- resources.html
+- glossary.html
+- about.html
+- manifest.webmanifest
+- service-worker.js
+- release-notes.md
+- README.md
+
+If easier, just upload the full folder contents from the ZIP and overwrite existing files.
+GitHub Pages should redeploy automatically.

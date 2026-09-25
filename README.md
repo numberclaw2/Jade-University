@@ -43,3 +43,7 @@ Progress is stored locally in the browser. The Progress page includes JSON expor
 
 ## Scope note
 Jade University is a fictional independent-study environment. It is not an accredited institution and does not award certification or academic credit.
+
+
+## v0.3.0 visual identity
+Jade University now uses a purple-first interface with jade as the secondary accent. The intent is to give the site a more distinctive studio/workshop identity while keeping the technician-core curriculum unchanged.
