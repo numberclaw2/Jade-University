@@ -1,29 +1,32 @@
 # Jade University Release Notes
 
-## v0.1.1 — GitHub root-asset path fix
-- Verified the initial Jade University files were uploaded to the GitHub `main` branch.
-- Updated all university crest, seal, monogram, wordmark, and mascot image references to match the repository's root-level image layout.
-- Updated the service-worker cache paths to the same root-level layout.
-- Bumped the service-worker cache key to `jade-university-v0.1.1` so browsers do not preserve the broken v0.1 image paths.
-- Revalidated internal file references after the GitHub packaging fix.
+## v0.2.0 — Technician Core Reconstruction
+- Rebuilt the curriculum around the minimum electronics/test-technician skill set instead of broad electronics coverage.
+- Preserved the eight-block structure but moved oscilloscope competence into the five-block technician core.
+- Reused Alfred source concepts from Weeks 1–3, 5, 7–9, 11–13, 16–19, 22, 24–25, 27–29 instead of creating a second independent electronics course.
+- Added explicit component recognition, PCB anatomy, datasheet use, function-generator fundamentals, test procedures, acceptance criteria, calibration-status awareness, and basic SMD workmanship.
+- Replaced 48 very short prototype teaching sections with 64 deeper technician-focused teaching sections.
+- Replaced one-question lesson checks with two-question required checks.
+- Fixed false completion: opening a teaching page no longer marks it complete.
+- Added explicit section-completion controls and gated sequential progression.
+- Added structured practicals with equipment, safety, setup, numbered procedure, expected evidence, acceptance criteria, evidence fields, and attestation.
+- Core readiness now requires deliberate teaching completion, passed checks, and completed practical evidence across Blocks 1–5.
+- Added 21 real external resources reused from Alfred or verified from manufacturer/university/government sources; removed placeholder resource slots.
+- Expanded the glossary from 31 to 96 technician terms.
+- Made Study competency checkboxes persistent.
+- Added progress export/import JSON backup.
+- Added state migration from v0.1; old page-view completion flags are intentionally not carried forward because completion semantics changed.
+- Improved service-worker update behavior with cache cleanup, `skipWaiting`, `clients.claim`, and a network-first navigation strategy.
+- Added global keyboard focus-visible styling.
+- Added optimized WebP versions of the six Jade brand graphics, reducing the active brand-image payload by roughly 90%.
+- Cleaned the duplicate release-notes heading and removed the unestablished founding year from footer text.
 
-# Jade University Release Notes
+## v0.1.1 — GitHub root-asset path fix
+- Updated university image references to match the repository root layout.
+- Updated service-worker cache paths.
+- Revalidated internal file references.
 
 ## v0.1 — Initial working build
-- Created separate Jade University site; Alfred remains untouched.
-- Adopted Jade University crest, seal, wordmark, monogram, and Jade Hounds mascot system.
-- Added jade green, elegant purple, gold, and ivory design language.
-- Added 8-priority accelerated electronics job-readiness curriculum.
-- Added 16 classroom lessons and 8 hands-on lab routes.
-- Added separate Learn and Study workflows with independent resume state.
-- Added Study priority selector.
-- Added Focus Prep checklist on Learn and Study entry.
-- Added direct lesson-page navigation.
-- Added question-to-teaching review routing.
-- Added glossary single-click popover / double-click full-entry behavior.
-- Added one-highlight-per-teaching-section glossary behavior.
-- Added progress tracking using localStorage.
-- Added Apply-Now core gate for Priorities 1–5.
-- Added contextual resource architecture with required video + written support slots.
-- Added responsive/mobile layout and reduced-motion support.
-- Added PWA manifest and basic service worker.
+- Created the separate Jade University site.
+- Added the original eight-priority prototype curriculum and core Learn/Study/Practice/Progress structure.
+- Added Jade branding, glossary behavior, focus prep, responsive design, and basic PWA support.

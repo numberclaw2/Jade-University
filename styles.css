@@ -209,3 +209,69 @@ th{background:#f4efe5;font-size:.78rem;text-transform:uppercase;letter-spacing:.
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+/* v0.2 technician-core functional upgrades */
+:focus-visible{
+  outline:3px solid var(--gold-500);
+  outline-offset:3px;
+  border-radius:6px;
+}
+button:disabled,.button[aria-disabled="true"]{
+  opacity:.5;
+  cursor:not-allowed;
+  transform:none!important;
+}
+.hint{font-size:.82rem;color:var(--muted)}
+.section-complete-box{
+  margin-top:22px;
+  padding-top:18px;
+  border-top:1px dashed var(--line);
+}
+.quiz-item{
+  margin:18px 0;
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:#fff;
+}
+.quiz-item h4{margin:.1em 0 .7em;font-family:var(--serif);color:var(--jade-950)}
+.quiz-item label{display:block;padding:8px 10px;border-radius:8px}
+.quiz-item label:hover{background:#f5f1e8}
+.lab-panel{
+  margin-top:24px;
+  border:1px solid var(--line);
+  border-radius:20px;
+  background:var(--paper);
+  padding:24px;
+  box-shadow:var(--shadow);
+}
+.lab-panel h3,.lab-panel h4{font-family:var(--serif);color:var(--jade-950)}
+.lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.lab-grid>div{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff}
+.evidence-fields{display:grid;gap:12px;margin:14px 0 20px}
+.evidence-field{display:grid;gap:6px;font-weight:800;font-size:.9rem}
+.evidence-field textarea{
+  width:100%;
+  resize:vertical;
+  min-height:72px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:10px 12px;
+  background:#fff;
+  color:var(--ink);
+  font:inherit;
+  font-weight:400;
+}
+.lab-attest{
+  margin:18px 0;
+  padding:14px;
+  background:#f6f0df;
+  border-radius:12px;
+}
+.file-button{cursor:pointer}
+.callout.purple{border-left-color:var(--purple-800);background:#f4ecf7}
+.resource-card a{word-break:break-word}
+@media(max-width:680px){
+  .lab-grid{grid-template-columns:1fr}
+  .lab-panel{padding:18px}
+}

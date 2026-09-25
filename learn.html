@@ -5,7 +5,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="topline"><div class="shell topline-inner"><span>Jade University · School of Applied Electronics</span><span class="desktop-only">Job-Ready Electronics Track</span></div></div>
   <div class="shell brand-row">
-    <a class="brand" href="index.html"><img src="monogram.png" alt="Jade University monogram"><div><span class="brand-name">JADE UNIVERSITY</span><span class="brand-sub">Applied Electronics · Hardware · Test</span></div></a>
+    <a class="brand" href="index.html"><img src="monogram.webp" alt="Jade University monogram"><div><span class="brand-name">JADE UNIVERSITY</span><span class="brand-sub">Applied Electronics · Hardware · Test</span></div></a>
     <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation">☰</button>
   </div>
   <nav class="main-nav" id="primary-navigation" aria-label="Primary navigation"><div class="shell nav-links">
@@ -13,7 +13,7 @@
   </div></nav>
 </header>
 <main id="main">
-<section class="page-hero"><div class="shell page-heading"><div><div class="eyebrow jade">Jade University Classroom</div><h1 id="learn-title">Job-Ready Electronics</h1><p id="learn-subtitle">Loading…</p></div><img class="page-logo" src="crest.png" alt="Jade University crest"></div></section>
+<section class="page-hero"><div class="shell page-heading"><div><div class="eyebrow jade">Jade University Classroom</div><h1 id="learn-title">Job-Ready Electronics</h1><p id="learn-subtitle">Loading…</p></div><img class="page-logo" loading="lazy" src="crest.webp" alt="Jade University crest"></div></section>
 <section class="section compact shell"><div class="controls">
 <div class="field"><label for="learn-week">Priority</label><select id="learn-week"></select></div>
 <div class="field"><label for="learn-lesson">Lesson</label><select id="learn-lesson"></select></div>
@@ -21,16 +21,16 @@
 <a class="button ghost" href="glossary.html">Glossary</a>
 </div></section>
 <section class="section compact shell"><div class="learn-layout">
-<aside class="rail"><div class="eyebrow purple">Lesson sequence</div><h3 id="lesson-page-label">Page</h3><div class="stage-list" id="stage-list"></div><div class="callout"><strong>Completion rule</strong><p>Teach → check → hands-on evidence. A wrong answer routes you back to the exact teaching section.</p></div></aside>
-<article class="lesson-card"><div class="eyebrow jade">Classroom</div><h2 id="lesson-title">Loading…</h2><div class="lesson-meta" id="lesson-badges"></div><div id="lesson-body"></div><div id="lesson-check"></div><div class="lesson-nav"><button class="button ghost" id="prev-section">Previous</button><a class="button outline" href="study.html">Open Study</a><button class="button jade" id="next-section">Continue</button></div></article>
+<aside class="rail"><div class="eyebrow purple">Lesson sequence</div><h3 id="lesson-page-label">Page</h3><div class="stage-list" id="stage-list"></div><div class="callout"><strong>Completion rule</strong><p>Teach → deliberately complete → pass the check → record hands-on evidence. Merely opening a page does not count.</p></div></aside>
+<article class="lesson-card"><div class="eyebrow jade">Classroom</div><h2 id="lesson-title">Loading…</h2><div class="lesson-meta" id="lesson-badges"></div><div id="lesson-body"></div><div id="lesson-check"></div><div id="lesson-lab"></div><div class="lesson-nav"><button class="button ghost" id="prev-section">Previous</button><a class="button outline" href="study.html">Open Study</a><button class="button jade" id="next-section">Continue</button></div></article>
 </div></section>
 </main>
 <footer class="site-footer"><div class="shell footer-grid">
-  <div class="footer-brand"><img src="seal.png" alt=""><div><strong>Jade University</strong><p>School of Applied Electronics</p><p>Accelerated technician-readiness companion curriculum.</p></div></div>
+  <div class="footer-brand"><img loading="lazy" src="seal.webp" alt=""><div><strong>Jade University</strong><p>School of Applied Electronics</p><p>Accelerated technician-readiness companion curriculum.</p></div></div>
   <div><h3>Learning</h3><a href="study.html">Study</a><a href="learn.html">Learn</a><a href="practice.html">Practice</a><a href="progress.html">Progress</a></div>
   <div><h3>Reference</h3><a href="resources.html">Engineering Library</a><a href="glossary.html">Glossary</a><a href="about.html">About this track</a></div>
-</div><div class="shell legal"><span>© 2026 Jade University · EST. 1998</span><span>Fictional independent-study environment for personal learning. Not an accredited institution and no academic credit is awarded.</span></div></footer>
+</div><div class="shell legal"><span>© 2026 Jade University</span><span>Fictional independent-study environment for personal learning. Not an accredited institution and no academic credit is awarded.</span></div></footer>
 <div class="toast" id="toast" hidden></div>
 
 <script>document.addEventListener('DOMContentLoaded',()=>{document.querySelector(`[data-nav="learn"]`)?.classList.add('active')});</script>
-<script src="curriculum.js"></script><script src="glossary-data.js"></script><script src="app.js"></script><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}))}</script></body></html>
+<script src="curriculum.js"></script><script src="glossary-data.js"></script><script src="resources-data.js"></script><script src="app.js"></script><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}))}</script></body></html>

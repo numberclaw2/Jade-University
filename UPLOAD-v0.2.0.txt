@@ -1,0 +1,24 @@
+JADE UNIVERSITY v0.2.0 — GITHUB UPLOAD
+
+1. Upload every file in this folder to the ROOT of numberclaw2/Jade-University.
+2. Choose replacement/overwrite when GitHub identifies an existing file.
+3. Six NEW WebP brand files are included:
+   crest.webp
+   seal.webp
+   monogram.webp
+   wordmark-horizontal.webp
+   wordmark-stacked.webp
+   mascot-jade-hounds.webp
+
+4. After the site is confirmed working, the old unused brand PNG files may be deleted:
+   crest.png
+   seal.png
+   monogram.png
+   wordmark-horizontal.png
+   wordmark-stacked.png
+   mascot-jade-hounds.png
+
+5. Do NOT delete icon-180.png, icon-192.png, or icon-512.png.
+
+GitHub Pages should rebuild automatically after the upload.
+The v0.2 service worker uses a new cache key and removes older Jade caches during activation.

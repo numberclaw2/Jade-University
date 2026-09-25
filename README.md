@@ -1,35 +1,45 @@
-# Jade University v0.1
+# Jade University
 
-This is a separate, standalone companion site derived from the teaching/UX principles of the latest Alfred University AU-ESET 301 site.
+Jade University is a focused electronics/test-technician learning track derived from the mature teaching principles and selected content of Alfred University AU-ESET 301.
 
-## Start
-Open `index.html` in a browser, or publish the folder with GitHub Pages/static hosting.
+## v0.2 goal
 
-## Main pages
-- `index.html` — dashboard/home
-- `learn.html` — accelerated classroom
-- `study.html` — selectable study priority
-- `practice.html` — unfinished required checks/labs
-- `progress.html` — readiness/progress tracking
-- `resources.html` — teaching-media/library architecture
-- `glossary.html` — technical vocabulary
-- `about.html` — scope and relationship to Alfred
+Teach **only the electronics/test skills that materially improve bench readiness**:
 
-## Data
-- `curriculum.js` — 8-priority / 16-lesson curriculum
-- `glossary-data.js` — technical glossary
-- `app.js` — navigation, Learn/Study state, progress, glossary popovers, checks, labs
-- `styles.css` — Jade University visual system
+1. DC fundamentals + component recognition
+2. Schematics + PCB + datasheet literacy
+3. DMM + bench supply + oscilloscope + basic function generator
+4. Systematic troubleshooting + procedure-driven test + documentation
+5. Soldering/rework + ESD + connectors/harnesses
+6. Digital logic + logic analyzer
+7. UART + I²C + SPI
+8. Board bring-up + technician capstone
 
-## Branding
-All current logo assets are under `assets/brand/`.
+Blocks 1–5 form the internal **Core technician skills demonstrated** milestone. Blocks 6–8 strengthen digital/embedded-test capability.
 
-## Current intentional limitation
-The external video/written-literature placement architecture is implemented, but v0.1 uses resource slots rather than hard-coded external URLs. This avoids inventing or downgrading Alfred's already-curated sources. The next content pass should import the strongest verified Alfred Teaching Media resources into the matching Jade priority sections.
+Jade intentionally does **not** duplicate Alfred's broad CETa coverage, RF/telecom breadth, deep RLC/resonance sequence, full C course, full Python course, full embedded architecture sequence, or calendar/exam machinery.
 
-## Safety / scope
-Jade University is a fictional independent-study environment, not an accredited institution.
+## Main files
+- `index.html` — dashboard
+- `learn.html` — teaching, checks, and practical evidence
+- `study.html` — persistent study checklist and concept review
+- `practice.html` — incomplete skill/evidence queue
+- `progress.html` — truthful progress, core gate, export/import
+- `resources.html` — verified external support library
+- `glossary.html` — technician vocabulary
+- `curriculum.js` — eight-block technician curriculum
+- `resources-data.js` — linked teaching resources
+- `glossary-data.js` — field vocabulary
+- `app.js` — state, gating, evidence, progress, study, glossary, resource behavior
 
+## Completion model
+Opening a teaching page does not count as completion. Sequential progress requires deliberate section completion. A lesson is demonstrated only when:
+- all teaching sections are deliberately completed,
+- the required knowledge check is passed, and
+- the practical evidence record is complete.
 
-## v0.1.1 GitHub packaging
-The current GitHub repository stores the six brand PNG files at the repository root. All HTML and service-worker references in v0.1.1 match that layout.
+## Progress storage
+Progress is stored locally in the browser. The Progress page includes JSON export/import for backup and device migration.
+
+## Scope note
+Jade University is a fictional independent-study environment. It is not an accredited institution and does not award certification or academic credit.
