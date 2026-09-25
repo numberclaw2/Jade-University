@@ -251,5 +251,170 @@ window.JADE_RESOURCES = [
     "url": "https://www.allaboutcircuits.com/video-lectures/basic-requirements-for-current/",
     "focus": "Closed paths, source/load/return, and why an open path stops current.",
     "action": "Trace the complete current path in the Core 1 practical before calculating."
+  },
+  {
+    "id": "aac-ohms-written",
+    "week": 1,
+    "type": "Written",
+    "status": "Required",
+    "title": "Ohm’s Law — How Voltage, Current, and Resistance Relate",
+    "provider": "All About Circuits",
+    "url": "https://www.allaboutcircuits.com/textbook/direct-current/chpt-2/voltage-current-resistance-relate/",
+    "focus": "Physical meaning of voltage/current/resistance and Ohm’s law",
+    "action": "Rework one Jade DC example from the written explanation without looking at the lesson."
+  },
+  {
+    "id": "sparkfun-schematic",
+    "week": 2,
+    "type": "Written",
+    "status": "Required",
+    "title": "How to Read a Schematic",
+    "provider": "SparkFun Learn",
+    "url": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/overview",
+    "focus": "Symbols, nets, nodes, labels, designators, schematic-to-circuit reading",
+    "action": "Trace one Jade schematic path and identify three named nets or nodes."
+  },
+  {
+    "id": "sparkfun-pcb",
+    "week": 2,
+    "type": "Written",
+    "status": "Required",
+    "title": "PCB Basics",
+    "provider": "SparkFun Learn",
+    "url": "https://learn.sparkfun.com/tutorials/pcb-basics",
+    "focus": "Pads, traces, vias, planes, through-hole and surface-mount anatomy",
+    "action": "Point out pads, traces, vias and at least one likely test point on a real or photographed PCB."
+  },
+  {
+    "id": "digikey-datasheet-video",
+    "week": 2,
+    "type": "Video",
+    "status": "Required",
+    "title": "How To Read A Datasheet",
+    "provider": "DigiKey Electronics",
+    "url": "https://www.digikey.com/en/videos/d/digi-key-electronics/how-to-read-a-datasheet-electronics-with-becky-stern-digikey",
+    "focus": "Pinouts, ratings, tables, limits, and finding the specific answer you need",
+    "action": "Answer one exact engineering question from a real component datasheet."
+  },
+  {
+    "id": "tek-scope-webinar",
+    "week": 3,
+    "type": "Video",
+    "status": "Required",
+    "title": "How to Get the Most Out of Your Oscilloscope",
+    "provider": "Tektronix",
+    "url": "https://www.tek.com/en/video/webinar/how-to-get-the-most-out-of-your-oscilloscope",
+    "focus": "Vertical, horizontal, trigger and probing fundamentals",
+    "action": "Configure a known waveform manually before using Autoset."
+  },
+  {
+    "id": "aac-troubleshooting-tips",
+    "week": 4,
+    "type": "Written",
+    "status": "Required",
+    "title": "General Troubleshooting Tips",
+    "provider": "All About Circuits",
+    "url": "https://www.allaboutcircuits.com/textbook/reference/chpt-8/general-troubleshooting-tips/",
+    "focus": "Observation, history, probability and disciplined fault isolation",
+    "action": "List three plausible causes before touching the circuit."
+  },
+  {
+    "id": "aac-troubleshooting-specific",
+    "week": 4,
+    "type": "Written",
+    "status": "Required",
+    "title": "Specific Troubleshooting Techniques",
+    "provider": "All About Circuits",
+    "url": "https://www.allaboutcircuits.com/textbook/reference/chpt-8/specific-troubleshooting-techniques/",
+    "focus": "Divide-and-conquer, substitution, stage boundaries and signal tracing",
+    "action": "Choose a boundary measurement that would eliminate at least one hypothesis."
+  },
+  {
+    "id": "digikey-solder-video",
+    "week": 5,
+    "type": "Video",
+    "status": "Required",
+    "title": "How To Solder — Electronics with Becky Stern",
+    "provider": "DigiKey Electronics",
+    "url": "https://www.digikey.com/en/videos/d/digi-key-electronics/how-to-solder-electronics-with-becky-stern-digi-key-electronics",
+    "focus": "Heating both surfaces, solder flow, wetting and joint formation",
+    "action": "Inspect your next joint specifically for wetting and concave geometry."
+  },
+  {
+    "id": "aac-logic-video",
+    "week": 6,
+    "type": "Video",
+    "status": "Required",
+    "title": "Logic Gates — Logic States",
+    "provider": "North Seattle Community College / All About Circuits",
+    "url": "https://www.allaboutcircuits.com/video-lectures/logic-gates-logic-states/",
+    "focus": "Logic states as physical voltage levels",
+    "action": "Translate one HIGH/LOW statement into expected voltages for the device you are using."
+  },
+  {
+    "id": "aac-logic-levels",
+    "week": 6,
+    "type": "Written",
+    "status": "Required",
+    "title": "Logic Signal Voltage Levels",
+    "provider": "All About Circuits",
+    "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-3/logic-signal-voltage-levels/",
+    "focus": "VIH/VIL ranges, margins, and why logic is not simply exact 0 V / VCC",
+    "action": "Find VIH and VIL in one real datasheet and write the valid ranges."
+  },
+  {
+    "id": "aac-cmos-pulls",
+    "week": 6,
+    "type": "Written",
+    "status": "Required",
+    "title": "CMOS Gate Circuitry — Floating Inputs and Pull Resistors",
+    "provider": "All About Circuits",
+    "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-3/cmos-gate-circuitry/",
+    "focus": "Floating inputs and pull-up/pull-down behavior",
+    "action": "Predict the default state before and after adding a pull resistor."
+  },
+  {
+    "id": "ti-debounce-video",
+    "week": 6,
+    "type": "Video",
+    "status": "Required",
+    "title": "Debounce a Switch",
+    "provider": "Texas Instruments",
+    "url": "https://www.ti.com/video/5840441551001",
+    "focus": "Mechanical bounce as a time-domain problem",
+    "action": "Identify repeated transitions in a captured switch event."
+  },
+  {
+    "id": "saleae-capture-video",
+    "week": 6,
+    "type": "Video",
+    "status": "Required",
+    "title": "Logic 2 Tutorial — Capturing Data",
+    "provider": "Saleae Support",
+    "url": "https://www.youtube.com/watch?v=XhWKoFj_p9k",
+    "focus": "Sampling rate, thresholds, channels and saving captures",
+    "action": "Capture one known-good digital signal with labeled channels."
+  },
+  {
+    "id": "saleae-protocol-video",
+    "week": 7,
+    "type": "Video",
+    "status": "Required",
+    "title": "Logic 2 Tutorial — Protocol Analyzers",
+    "provider": "Saleae Support",
+    "url": "https://www.youtube.com/watch?v=Ak9R4yxQPhs",
+    "focus": "Protocol decoder setup and correlating decoded data with raw edges",
+    "action": "Decode one transaction, then inspect the raw waveform under the decoder result."
+  },
+  {
+    "id": "ti-uart-video",
+    "week": 7,
+    "type": "Video",
+    "status": "Required",
+    "title": "UART Protocol and Error Overview",
+    "provider": "Texas Instruments",
+    "url": "https://www.ti.com/video/6313217959112",
+    "focus": "Start/stop/parity framing, baud rate and timing-error sources",
+    "action": "Label a UART frame and state what framing assumption the decoder needs."
   }
 ];

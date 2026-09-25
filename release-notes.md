@@ -1,5 +1,23 @@
 # Jade University Release Notes
 
+## v0.4.0 — Alfred Learning-Parity Pass
+- Kept the same eight-block technician curriculum; this update changes how Jade teaches, reviews, and reinforces it rather than adding breadth.
+- Added a `Pause & retrieve` response to every teaching section and require a retrieval response before section completion.
+- Added a concrete `Jade models it` technician example, guided application, and changed-context `You do` practice to all 64 teaching sections.
+- Added one constructed explain-back response to every lesson in addition to the existing required MCQs and practical evidence.
+- Added section-level first-pass Watch + Read media pairs and expanded the verified resource library.
+- Added contextual real instructional figures with source/license attribution; no AI technical diagrams were added.
+- Enforced a reached-material boundary in Study so unreached future teaching no longer appears.
+- Rebuilt Study into six lean paths: Review, Flashcards, Watch & Review, Reference, Weak Areas, and Active Recall.
+- Added glossary-backed vocabulary retrieval inside Reference with Again / Hard / Got it ratings, progressive due dates, and retained-review state separate from course mastery.
+- Added exact Question → Teaching → Back to Question routing for missed checks.
+- Fixed Practice routing so `Work this exact gap` opens the first incomplete teaching page or the relevant check/practical.
+- Added physical-route classification for practicals and require physical hardware for designated core bench/workmanship labs.
+- Added per-question result state so Study can surface recorded weak areas.
+- Added scheduled section-level Active Recall to Practice, with due reviews routed back into Study.
+- Preserved exact Back-to-Question routing across lesson re-renders.
+- Bumped the PWA cache namespace to `jade-university-v0.4.0`.
+
 ## v0.3.0 — Purple-First UX Remodel
 - Shifted the visual hierarchy from jade-first to purple-first, with jade retained as the secondary accent.
 - Rebuilt the global visual language around a richer purple identity, lighter glass-like surfaces, and a more distinct studio-style learning atmosphere.

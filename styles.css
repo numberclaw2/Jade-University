@@ -299,3 +299,30 @@ button:disabled,.button[aria-disabled="true"]{opacity:.5;cursor:not-allowed;tran
 .file-button{cursor:pointer}
 .resource-card a{word-break:break-word}
 @media(max-width:680px){.lab-grid{grid-template-columns:1fr}.lab-panel{padding:18px}}
+
+
+/* v0.4 learning-parity layer */
+.learning-operation,.retrieval-box,.route-box{margin:18px 0;padding:18px;border-radius:16px;border:1px solid rgba(213,196,229,.72);background:#fff;box-shadow:var(--shadow-sm)}
+.learning-operation.guided{border-left:5px solid var(--purple-700);background:#f8f3fc}
+.learning-operation.challenge{border-left:5px solid var(--jade-700);background:#f1faf7}
+.learning-operation h4,.retrieval-box h4,.resource-pair h4{font-family:var(--serif);color:var(--purple-950);margin:.25em 0 .5em}
+.learning-operation textarea,.retrieval-box textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px 12px;resize:vertical;background:#fff;color:var(--ink)}
+.retrieval-box{border:2px solid rgba(26,120,96,.22);background:linear-gradient(180deg,#f7fcfa,#eff8f4)}
+.resource-pair{margin:20px 0;padding-top:4px}
+.lesson-figure{margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow-sm)}
+.lesson-figure img{max-height:360px;width:100%;object-fit:contain;background:#fff;border-radius:12px}
+.lesson-figure figcaption{display:grid;gap:3px;margin-top:10px;font-size:.82rem;color:var(--muted)}
+.lesson-figure figcaption strong{color:var(--purple-950)}
+.lesson-figure figcaption a{color:var(--purple-800);font-weight:800}
+.constructed-response{padding:14px;border-radius:14px;background:#f8f3fc;border:1px solid var(--line);margin-bottom:18px}
+.route-box select{width:100%;margin-top:6px;border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}
+.study-mode-bar{display:flex;flex-wrap:wrap;gap:8px;padding:10px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.86);box-shadow:var(--shadow-sm)}
+.study-mode{border:1px solid transparent;border-radius:999px;background:transparent;color:var(--muted);padding:10px 14px;font-weight:800}
+.study-mode:hover,.study-mode.active{background:linear-gradient(135deg,var(--purple-900),var(--purple-700));color:#fff;box-shadow:var(--shadow-sm)}
+#study-workspace{display:grid;gap:18px}
+.review-sheet{overflow:visible}
+.flash-answer,.recall-card [id^="recall-answer"],#vocab-answer{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.vocab-drill #vocab-card{padding-top:6px}
+@media(max-width:680px){.study-mode-bar{display:grid;grid-template-columns:1fr 1fr}.study-mode{border-radius:12px}.lesson-figure img{max-height:260px}}
+.callout.model{border-left-color:var(--purple-700);background:linear-gradient(135deg,#f8f2fc,#f2fbf8)}
+.callout.model .eyebrow{margin-bottom:4px}

@@ -1,0 +1,5 @@
+JADE UNIVERSITY v0.4.0 — LEARNING PARITY
+
+Upload all files in this folder to the ROOT of numberclaw2/Jade-University and overwrite existing files.
+New file: learning-enhancements.js
+GitHub Pages should redeploy automatically.
